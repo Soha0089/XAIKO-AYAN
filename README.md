@@ -2,7 +2,7 @@
   <img src="https://i.imgur.com/0e3Z3X9.jpeg" width="50" style="margin-right: 10px;"></a>
 </p>
 <h5 align="center">
-🔹MR.AYAN
+🔹TEAM X7
 </h5>
 
 ## Introduction
