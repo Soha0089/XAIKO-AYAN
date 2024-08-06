@@ -5,7 +5,7 @@ const path = require('path');
 module.exports = {
   config: {
     name: "owner",
-    author: "𝗠𝗥.𝗔𝗬𝗔𝗡",
+    author: "Team x7",
     version: "2.0",
     cooldowns: 5,
     role: 0,
@@ -26,15 +26,15 @@ module.exports = {
         await api.sendMessage(loadingMessage, event.threadID);
 
         const ownerInfo = {
-          name: '𝗠𝗥.𝗔𝗬𝗔𝗡',
+          name: 'Team x7',
           gender: '𝗠𝗮𝗹𝗲',
           hobby: '𝗕𝗼𝘁 𝗰𝗼𝗱𝗶𝗻𝗴,𝗦𝘁𝗲𝗮𝗹𝗶𝗻𝗴 𝗰𝗼𝗺𝗺𝗮𝗻𝗱𝘀,𝗲𝘁𝗰..',
           relationship: '𝗣𝘂𝗿𝗲 𝗦𝗶𝗻𝗴𝗹𝗲',
-          facebookLink: 'https://m.me/NOOBS.DEVELOPER.AYAN',
+          facebookLink: '',
           bio: '𝗛𝗮𝘁𝗲𝗿𝘀 𝗮𝗿𝗲 𝗺𝘆 𝗺𝗼𝘁𝗶𝘃𝗮𝘁𝗼𝗿𝘀'
         };
 
-        const videoUrl = 'https://i.imgur.com/JTwPWIq.jpeg';
+        const videoUrl = 'https://i.imgur.com/jS63BDT.gif';
         const tmpFolderPath = path.join(__dirname, 'tmp');
 
         if (!fs.existsSync(tmpFolderPath)) {
