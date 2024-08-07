@@ -31,7 +31,7 @@ module.exports = {
 
 let img = link[Math.floor(Math.random()*link.length)]
 message.send({
-  body: ' Satoru Gojo🦋 ',attachment: await global.utils.getStreamFromURL(img)
+  body: '𝗡𝗮𝗿𝘂𝘁𝗼🐤',attachment: await global.utils.getStreamFromURL(img)
 })
 }
 }
