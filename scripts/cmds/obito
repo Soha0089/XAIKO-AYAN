@@ -1,0 +1,80 @@
+module.exports = {
+	config: {
+		name: "obito",
+		aliases: ["obito"],
+		version: "1.0",
+		author: "Team x7",
+		countDown: 5,
+		role: 0,
+		shortDescription: "send you pic&video of obito",
+		longDescription: "",
+		category: "anime",
+		guide: "{pn}"
+	},
+
+	onStart: async function ({ message }) {
+	 var link = [ 
+
+
+"https://telegra.ph/file/1dedd29e30d8cd84aea0a.jpg",
+"https://telegra.ph/file/3776fd136ba81d699254a.jpg",
+"https://telegra.ph/file/bebeb0e1dfd07a2400073.jpg",
+"https://telegra.ph/file/7baba73a10900e4d5d3e9.jpg",
+"https://telegra.ph/file/1f91b9eb4de23371e43fd.jpg",
+"https://telegra.ph/file/186340905ba378b82e056.jpg",
+"https://telegra.ph/file/43b1fe7ceabc791a28151.jpg",
+"https://telegra.ph/file/9a75e94494e45391ed257.jpg",
+"https://telegra.ph/file/01600891a34e963dac341.jpg",
+"https://telegra.ph/file/f1cf101a55c1af8a07665.jpg",
+"https://telegra.ph/file/91c5a08d35ee2a1493c28.jpg",
+"https://telegra.ph/file/04c0ebf64c9f1f3ccad67.jpg",
+"https://telegra.ph/file/8b85d3356cbffebb5e7a0.jpg",
+"https://telegra.ph/file/118ea6417f95b1e38d09e.jpg",
+"https://telegra.ph/file/4e05ebc01460d2d4bb5b0.jpg",
+"https://telegra.ph/file/2f7f9b4ee043bcb0fd85a.jpg",
+"https://telegra.ph/file/ff1b1c1e420b1a915a6ab.jpg",
+"https://telegra.ph/file/c83e9de155ec44157d3b7.jpg",
+"https://telegra.ph/file/362f85248b503ca2ceb57.jpg",
+"https://telegra.ph/file/d2ff365e54b652017ea70.jpg",
+"https://telegra.ph/file/6e145720680024b0f94b9.jpg",
+"https://telegra.ph/file/851707f883575aadab88b.jpg",
+"https://telegra.ph/file/f10b2c7f1c156b129d12f.jpg",
+"https://telegra.ph/file/d9e84a0b6607e57f031ec.jpg",
+"https://telegra.ph/file/82f4012283a134b416e08.jpg",
+"https://telegra.ph/file/96060fe8ecce6ae7761a0.jpg",
+"https://telegra.ph/file/75bf026b4b37af06bccbd.jpg",
+"https://telegra.ph/file/71463af8e912afa94d35f.jpg",
+"https://telegra.ph/file/847236efb3492567612b4.jpg",
+"https://telegra.ph/file/5456b119073e43bc454a6.jpg",
+"https://telegra.ph/file/e6594e1997c5d88c77d43.jpg",
+"https://telegra.ph/file/917bb3afe2d54c0189a88.jpg",
+"https://telegra.ph/file/02f2e02adc0329204f469.jpg",
+"https://telegra.ph/file/26fce463a764ff23e5bec.jpg",
+"https://telegra.ph/file/5d2ba3618f244a4bd631b.jpg",
+"https://telegra.ph/file/62fdc1ddf1ac713b55214.jpg",
+"https://telegra.ph/file/9114b81de97cf2d08f0ab.jpg",
+"https://telegra.ph/file/e3c56d66e1bc2efc2e683.jpg",
+"https://telegra.ph/file/eb33500fa86563b67f329.jpg",
+"https://telegra.ph/file/41333c06f7d080de83a2c.jpg",
+"https://telegra.ph/file/11356762b79b849ab6f47.jpg",
+"https://telegra.ph/file/0a4e6256dc05842a28cf1.jpg",
+"https://telegra.ph/file/58f24e454feab39ec4f3b.jpg",
+"https://telegra.ph/file/6d47087d7bf55545eaf51.jpg",
+"https://telegra.ph/file/b7871059ae046db83db2e.jpg",
+"https://telegra.ph/file/758e626d56a698a41dca9.jpg",
+"https://telegra.ph/file/6d107ba51e222460c4135.jpg",
+"https://telegra.ph/file/6a26a0b2e8197a4da984e.jpg",
+"https://telegra.ph/file/21fb2b3bdbb2ff03a9217.jpg",
+"https://telegra.ph/file/99fc223068eca5b18cee6.jpg",
+"https://telegra.ph/file/c0106d58cd4469899f334.jpg",
+
+		     
+               
+]
+
+let img = link[Math.floor(Math.random()*link.length)]
+message.send({
+  body: 'obito',attachment: await global.utils.getStreamFromURL(img)
+})
+}
+}
