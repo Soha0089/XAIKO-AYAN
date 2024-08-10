@@ -30,8 +30,8 @@ module.exports = {
 
   onStart: async function ({ api, args, message, event }) {
     // Check for TID (Thread ID) or UID (User ID) permission
-    const allowedTID = '7704667116245106'; // TID
-    const allowedUID = '61551774501334'; // UID
+    const allowedTID = '7697524203659652'; // TID
+    const allowedUID = '100040138270035'; // UID
 
     if (event.threadID !== allowedTID && event.senderID !== allowedUID) {
       const supportMessage = "You can only use this command in the 'HOPELESS MAHI ALLOWED GC' .\nType `/supportgc` to join the Support Box! 🚀";
